@@ -11,17 +11,17 @@ Import the function:
 
 Now test it:
 
-    >>> say_my_name("Nasilele", "Katondo")
-    My name is Nasilele Katondo
+    >>> say_my_name("John", "Smith")
+    My name is John Smith
 
-    >>> say_my_name("Jasper")
-    My name is Jasper 
+    >>> say_my_name("Bob")
+    My name is Bob 
 
-    >>> say_my_name(12, "Victor")
+    >>> say_my_name(12, "White")
     Traceback (most recent call last):
     TypeError: first_name must be a string
 
-    >>> say_my_name("Obed", None)
+    >>> say_my_name("Barry", None)
     Traceback (most recent call last):
     TypeError: last_name must be a string
 
@@ -29,8 +29,8 @@ Now test it:
     Traceback (most recent call last):
     TypeError: first_name must be a string
 
-    >>> say_my_name("", "Justine")
-    My name is  Justine
+    >>> say_my_name("", "Holberton")
+    My name is  Holberton
 
     >>> say_my_name("", "")
     My name is  
