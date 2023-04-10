@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-""" LockedClass """
+""" LockedClass class """
+
 
 class LockedClass():
-    """ Variables declaration """
-    __slots__('first_name')
+    """ variables declarations """
+    __slots__ = ('first_name')
+
